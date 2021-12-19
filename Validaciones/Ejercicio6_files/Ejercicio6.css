@@ -1,0 +1,58 @@
+h1{
+    text-align:center;
+    color:blue;
+}
+h2{
+    text-align:left;
+    color:green;
+}
+p{
+    color:gray;
+}
+input[type=submit]{
+    padding: 3px;
+    border-radius: 15px;
+    background-color: #7FFF00;
+}
+
+.wrapper {
+    width: 80%;
+    margin: auto;
+    overflow:hidden;
+}
+
+header {
+    background: rgba(0,0,0,0.9);
+    width: 100%;
+    z-index: 100;
+}
+
+nav {
+    float: left;
+}
+
+nav ul {
+    list-style: none;
+    overflow: hidden;
+}
+
+nav ul li {
+    float: left;
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+}
+
+nav ul li a {
+    display: block;
+    padding: 20px;
+    color: #fff;
+    text-decoration: none;
+}
+
+nav ul li:hover {
+    background: #3ead47;
+}
+
+.contenido {
+    padding-top: 80px;
+}
